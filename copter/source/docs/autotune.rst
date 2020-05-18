@@ -57,9 +57,10 @@ How to invoke AutoTune
    original PID gains.
 #. If you are happy with the autotuned PID gains, leave the ch7/ch8
    switch in the HIGH position, land and disarm to save the PIDs
-   permanently.
+   permanently. You must land and disarm without changing modes. *Changing 
+   modes during autotune cancels the autotune and resets the PIDs.*
 
-   If you DO NOT like the new PIDS, switch ch7/ch8 LOW to return to the
+   If you DO NOT like the new PIDs, switch ch7/ch8 LOW to return to the
    original PIDs. The gains will not be saved when you disarm.
 
 If you find after performing an AutoTune that the vehicle feels overly twitchy when flying Stabilize, AltHold or PosHold (but ok in more
